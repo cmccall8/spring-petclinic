@@ -6,7 +6,7 @@
     }
   }
 
-  // Run terraform init
+  Run terraform init
   stage('Provision') {
     node {
           sh 'terraform init'
